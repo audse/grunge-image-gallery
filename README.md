@@ -20,6 +20,7 @@ The basic structure of a gallery is as follows...
         <div class="gig-info">
              <span class="gig-title">Example Title</span> <!-- Optional -->
             <span class="gig-caption">Example Caption</span> <!-- Optional -->
+            <span class="gig-link">http://examplelink.com/</span> <!-- Optional -->
         </div>
     </div>
 
@@ -38,4 +39,6 @@ No Javascript or CSS beyond that is required. It's very easy to customize, howev
 }
 ```
 
-Customizing the lightbox is super easy also! `.gig-overlay`, `.gig-lightbox`, `.gig-lightbox-image`,  `.gig-lightbox-title`, and `.gig-lightbox-caption` are all you need to get pretty much any effect you desire!
+Customizing the lightbox is super easy also! `.gig-overlay`, `.gig-lightbox`, `.gig-lightbox-image`,  `.gig-lightbox-title`, `.gig-lightbox-button`, and `.gig-lightbox-caption` are all you need to get pretty much any effect you desire!
+
+One more thing you can do is make the whole block link to something. To do this, just have your A tag open right after `.gig-image`, and close right before `.gig-image` closes.
