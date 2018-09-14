@@ -1,0 +1,225 @@
+<html>
+    <head>
+        <title>Grunge Image Gallery: Demo</title>
+        <link rel="stylesheet" href="css/demo.css" />
+        <link rel="stylesheet" href="css/gig.css" />
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/gig.js"></script>
+
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    </head>
+    <body>
+        <div class="screen">
+            <div class="container absolute">
+                <div class="flex">
+                    <div class="flex-item nav"><a href="#home">Grunge Image Gallery</a></div>
+                    <div class="flex-item nav-right"><a href="#examples">Examples</a><a href="#installation">Installation</a></div>
+                </div>
+                <h1 id="home">Grunge Image Gallery</h1>
+                <p class="lead">This is an image gallery and lightbox that is open source, lightweight, fully customizable, responsive, and easy to use.</p>
+            </div>
+        </div>
+        <div class="container">
+            <h2 id="examples">Examples</h2>
+
+            <h3>Horizontal Style</h3>
+            <p>The Horizontal style works best for landscape-style images that are at least 500px by 500px.</p>
+            <p>Simply add the "horizontal" CSS class to your gallery to change the direction.</p>
+            <div class="gig-gallery horizontal">
+                <div class="gig-image">
+                    
+                    <img class="gig-thumbnail" src="images/image-1.jpg" />
+                    <img class="gig-fullsize" src="images/image-1.jpg" />
+                    <div class="gig-info">
+                        <span class="gig-title">Morris Louis, Saraband</span>
+                        <span class="gig-caption"> Example Caption</span>
+                    </div>
+                </div>
+                <div class="gig-image">
+                    <img class="gig-thumbnail" src="images/image-2.jpg" />
+                    <img class="gig-fullsize" src="images/image-2.jpg" />
+                    <div class="gig-info">
+                        <!-- <span class="gig-title"> Example Image Of Stacked Paper</span> -->
+                        <span class="gig-caption"> Example Caption</span>
+                    </div>
+                </div>
+                <div class="gig-image">
+                    <img class="gig-thumbnail" src="images/image-3.jpg" />
+                    <img class="gig-fullsize" src="images/image-3.jpg" />
+                    <div class="gig-info">
+                        <!-- <span class="gig-title"> Example Image Of Stacked Paper</span> -->
+                        <span class="gig-caption"> Example Caption</span>
+                    </div>
+                </div>
+                <div class="gig-image">
+                    <img class="gig-thumbnail" src="images/image-4.jpg" />
+                    <img class="gig-fullsize" src="images/image-4.jpg" />
+                    <div class="gig-info">
+                        <span class="gig-title">Victoria Kloch, Purple, Magenta and Red Blocks</span>
+                        <span class="gig-caption"> Example Caption</span>
+                    </div>
+                </div>
+                <div class="gig-image">
+                    <img class="gig-thumbnail" src="images/image-5.jpg" />
+                    <img class="gig-fullsize" src="images/image-5.jpg" />
+                    <div class="gig-info">
+                        <span class="gig-title">Victoria Kloch, White, Yellow, Rose Pink and Red Blocks</span>
+                        <span class="gig-caption"> Example Caption</span>
+                    </div>
+                </div>
+                <div class="gig-image">
+                    <img class="gig-thumbnail" src="images/image-6.jpg" />
+                    <img class="gig-fullsize" src="images/image-6.jpg" />
+                    <div class="gig-info">
+                        <span class="gig-title">Wendy Skog, Hot Shadow</span>
+                        <span class="gig-caption"> Example Caption</span>
+                    </div>
+                </div>
+                <div class="gig-image">
+                    <img class="gig-thumbnail" src="images/image-7.jpg" />
+                    <img class="gig-fullsize" src="images/image-7.jpg" />
+                    <div class="gig-info">
+                        <!-- <span class="gig-title"> Example Image Of Stacked Paper</span> -->
+                        <span class="gig-caption"> Example Caption</span>
+                    </div>
+                </div>
+                <div class="gig-image">
+                    <img class="gig-thumbnail" src="images/image-8.jpg" />
+                    <img class="gig-fullsize" src="images/image-8.jpg" />
+                    <div class="gig-info">
+                        <!-- <span class="gig-title"> Example Image Of Stacked Paper</span> -->
+                        <span class="gig-caption"> Example Caption</span>
+                    </div>
+                </div>
+                <div class="gig-image">
+                    <img class="gig-thumbnail" src="images/image-9.jpg" />
+                    <img class="gig-fullsize" src="images/image-9.jpg" />
+                    <div class="gig-info">
+                        <!-- <span class="gig-title"> Example Image Of Stacked Paper</span> -->
+                        <span class="gig-caption"> Example Caption</span>
+                    </div>
+                </div>
+            </div>
+
+            <br /><br />
+            <h3>Vertical Style</h3>
+            <p>The Vertical style works best for portrait-style images that are at least 500px by 500px.</p>
+            <p>Simply add the "vertical" CSS class to your gallery to change the direction.</p>
+
+            <div class="gig-gallery vertical">
+                    <div class="gig-image">
+                        <img class="gig-thumbnail" src="images/image-10.jpg" />
+                        <img class="gig-fullsize" src="images/image-10.jpg" />
+                        <div class="gig-info">
+                            <span class="gig-title">Barnett Newman, Who's Afraid of Red, Yellow
+                                    and Blue?</span>
+                            <span class="gig-caption"> Example Caption</span>
+                        </div>
+                    </div>
+                    <div class="gig-image">
+                        <img class="gig-thumbnail" src="images/image-11.jpg" />
+                        <img class="gig-fullsize" src="images/image-11.jpg" />
+                        <div class="gig-info">
+                            <span class="gig-title">Mark Rothko, White Center</span>
+                            <span class="gig-caption"> Example Caption</span>
+                        </div>
+                    </div>
+                    <div class="gig-image">
+                        <img class="gig-thumbnail" src="images/image-12.jpg" />
+                        <img class="gig-fullsize" src="images/image-12.jpg" />
+                        <div class="gig-info">
+                            <!-- <span class="gig-title"> Example Image Of Stacked Paper</span> -->
+                            <span class="gig-caption"> Example Caption</span>
+                        </div>
+                    </div>
+                    <div class="gig-image">
+                        <img class="gig-thumbnail" src="images/image-13.jpg" />
+                        <img class="gig-fullsize" src="images/image-13.jpg" />
+                        <div class="gig-info">
+                            <span class="gig-title">&Aacute;kos B&aacute;nki</span>
+                            <span class="gig-caption"> Example Caption</span>
+                        </div>
+                    </div>
+                    <div class="gig-image">
+                        <img class="gig-thumbnail" src="images/image-14.jpg" />
+                        <img class="gig-fullsize" src="images/image-14.jpg" />
+                        <div class="gig-info">
+                            <!-- <span class="gig-title">Victoria Kloch, White, Yellow, Rose Pink and Red Blocks</span> -->
+                            <span class="gig-caption"> Example Caption</span>
+                        </div>
+                    </div>
+                    <div class="gig-image">
+                        <img class="gig-thumbnail" src="images/image-15.jpg" />
+                        <img class="gig-fullsize" src="images/image-15.jpg" />
+                        <div class="gig-info">
+                            <span class="gig-title">Brian Elson</span>
+                            <span class="gig-caption"> Example Caption</span>
+                        </div>
+                    </div>
+                    <div class="gig-image">
+                        <img class="gig-thumbnail" src="images/image-16.jpg" />
+                        <img class="gig-fullsize" src="images/image-16.jpg" />
+                        <div class="gig-info">
+                            <span class="gig-title">Mark Rothko</span>
+                            <span class="gig-caption"> Example Caption</span>
+                        </div>
+                    </div>
+                    <div class="gig-image">
+                        <img class="gig-thumbnail" src="images/image-17.jpg" />
+                        <img class="gig-fullsize" src="images/image-17.jpg" />
+                        <div class="gig-info">
+                            <span class="gig-title">Barnett Newman, Dionysis</span>
+                            <span class="gig-caption"> Example Caption</span>
+                        </div>
+                    </div>
+                    <div class="gig-image">
+                        <img class="gig-thumbnail" src="images/image-18.jpg" />
+                        <img class="gig-fullsize" src="images/image-18.jpg" />
+                        <div class="gig-info">
+                            <span class="gig-title">Mark Rothko</span>
+                            <span class="gig-caption"> Example Caption</span>
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+            <div class="screen">
+                <div class="container absolute">
+
+                <h2 id="installation">Installation</h2>
+
+                <h3>How To Get</h3>
+                <p>Download the <a href="https://github.com/audse/grunge-image-gallery">repository from Github</a> and copy the CSS and JS files into your project. Keep in mind that jQuery is included and required.</p>
+            
+                <h3>Installation</h3>
+                <p>The basic structure of a gallery is as follows...</p>
+                <pre>
+&lt;div class="<b>gig-gallery</b> <b class='red'>horizontal</b>"&gt;
+
+    <span class="gray">&lt;!-- Repeat this block as often as wanted --&gt;</span>
+    &lt;div class="<b>gig-image</b>"&gt;
+        &lt;img class="<b>gig-thumbnail</b>" src="<span class="red">images/thumbnails/image-1.jpg</span>" /&gt; <span class="gray">&lt;!-- Note that thumbnail and fullsize image may be the same --&gt;</span>
+        &lt;img class="<b>gig-fullsize</b>" src="<span class="red">images/image-1.jpg</span>" /&gt;
+        &lt;div class="<b>gig-info</b>"&gt;
+             &lt;span class="<b>gig-title</b>"&gt;<span class="red">Example Title</span>&lt;/span&gt; <span class="gray">&lt;!-- Optional --&gt;</span>
+            &lt;span class="<b>gig-caption</b>"&gt;<span class="red">Example Caption</span>&lt;/span&gt; <span class="gray">&lt;!-- Optional --&gt;</span>
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+&lt;/div&gt;
+                </pre>
+
+                <p>No Javascript or CSS beyond that is required. It's very easy to customize, however, and to get the stylization used in the examples, this CSS was used.</p>
+                <pre>
+.gig-title {
+    font-family: 'Oswald', sans-serif; <span class="gray">/* From Google Fonts */</span>
+    color: #333; <span class="gray">/* Color of Title */</span>
+    background-color: #fff; <span class="gray">/* Background of Title */</span>
+    box-shadow: 0.5em 0 0 #fff,-0.5em 0 0 #fff; <span class="gray">/* Padding */</span>
+}
+                </pre>
+            </div>
+        </div>
+    </body>
+</html>

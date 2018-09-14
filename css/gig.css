@@ -1,0 +1,122 @@
+.gig-gallery.horizontal {
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: -5px;
+    padding: 5px;
+    width: 100%;
+}
+
+.gig-gallery.horizontal > .gig-image {
+    flex: auto;
+    height: 250px;
+    margin: 0 5px 5px 0; 
+    min-width: 15%;
+    overflow: hidden;
+    position: relative;
+} .gig-gallery.horizontal > .gig-image:nth-child(4n+1){
+    width:45%;
+} .gig-gallery.horizontal > .gig-image:nth-child(4n+2){
+    width: 30%;
+} .gig-gallery.horizontal > .gig-image:nth-child(4n+3){
+    width: 20%;
+} .gig-gallery.horizontal > .gig-image:nth-child(4n+4){
+    width: 45%;
+}
+
+.gig-gallery.horizontal .gig-thumbnail {
+    display: block;
+    min-height: 500px;
+    min-width: 200%;
+    max-width: 200%;
+    position: absolute;
+    transform: translate(-25%, -25%);
+    z-index: 1;
+}
+
+.gig-gallery.vertical {
+    column-count: 3;
+    column-gap: 5px;
+}
+
+.gig-gallery.vertical > .gig-image {
+    display: inline-block;
+    margin: 0 0 5px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.gig-gallery.vertical .gig-thumbnail {
+    width: 100%;
+}
+
+.gig-fullsize {
+    display: none;
+    width: 100%;
+}
+
+.gig-info {
+    left: 0;
+    position: absolute;
+    top: 10px;
+    width: 90%;
+    z-index: 2;
+    box-sizing: border-box;
+    box-decoration-break: clone;
+    display: inline;
+    font-size: 1.2em;
+    line-height: 2.0;
+    padding: 1px 3px 3px 3px;
+    text-transform: uppercase;
+}
+
+.gig-caption {
+    display: none;
+}
+
+.gig-overlay {
+    background: black;
+    display: none;
+    height: 100vh;
+    left: 0;
+    opacity: 0.3;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: 100;
+}
+
+.gig-lightbox {
+    background: white;
+    box-sizing: border-box;
+    display: none;
+    height: 90vh;
+    left: 20vw;
+    position: fixed;
+    top: 5vh;
+    width: 60vw;
+    z-index: 101;
+} .gig-lightbox img {
+    max-width: 100%;
+    max-height: 80%;
+} .gig-lightbox-image {
+    background: black;
+    display: block;
+    padding-bottom: 2px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+} .gig-lightbox-title, .gig-lightbox-caption {
+    padding: 10px;
+} .gig-lightbox-title {
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 600px) {
+    .gig-gallery.vertical {
+        column-count: 2;
+    } .gig-title {
+        font-size: 1em;
+    }
+}
